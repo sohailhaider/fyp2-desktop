@@ -21,6 +21,7 @@ namespace ChatBox
     {
         public String UserName { get; set; }
         public IHubProxy HubProxy { get; set; }
+        //change it with ip
         const string ServerURI = "http://localhost:3825/omlate/signalr";
         public HubConnection Connection { get; set; }
 
