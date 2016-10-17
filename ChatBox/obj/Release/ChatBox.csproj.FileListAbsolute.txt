@@ -1,0 +1,17 @@
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\bin\Release\ChatBox.exe.config
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\bin\Release\ChatBox.exe
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\bin\Release\ChatBox.pdb
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\bin\Release\Newtonsoft.Json.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\bin\Release\Newtonsoft.Json.xml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Release\MainWindow.g.cs
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Release\App.g.cs
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Release\ChatBox_MarkupCompile.cache
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Release\ChatBox_MarkupCompile.lref
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Release\MainWindow.baml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Release\ChatBox.g.resources
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Release\ChatBox.Properties.Resources.resources
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Release\ChatBox.csproj.GenerateResource.Cache
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Release\ChatBox.exe
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Release\ChatBox.pdb

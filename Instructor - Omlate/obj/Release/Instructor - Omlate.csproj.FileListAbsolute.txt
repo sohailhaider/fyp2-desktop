@@ -1,0 +1,38 @@
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\obj\Release\MainWindow.baml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\obj\Release\Toolbar.baml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\obj\Release\MainWindow.g.cs
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\obj\Release\Toolbar.g.cs
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\obj\Release\App.g.cs
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\obj\Release\Instructor - Omlate_Content.g.cs
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\obj\Release\Instructor - Omlate_MarkupCompile.cache
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\obj\Release\Instructor - Omlate.g.resources
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\obj\Release\Instructor___Omlate.Properties.Resources.resources
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\obj\Release\Instructor - Omlate.csproj.GenerateResource.Cache
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Instructor - Omlate.exe.config
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Instructor - Omlate.exe
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Instructor - Omlate.pdb
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\AForge.Video.DirectShow.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\AForge.Video.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Frapper.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Microsoft.Owin.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Microsoft.Owin.Security.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\NAudio.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Newtonsoft.Json.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Owin.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Microsoft.Owin.xml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Microsoft.Owin.Security.xml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\NAudio.xml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\Newtonsoft.Json.xml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\obj\Release\Instructor - Omlate.csprojResolveAssemblyReference.cache
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\obj\Release\Instructor - Omlate.exe
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\obj\Release\Instructor - Omlate.pdb
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\ChatBox.exe
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\Instructor - Omlate\bin\Release\ChatBox.pdb

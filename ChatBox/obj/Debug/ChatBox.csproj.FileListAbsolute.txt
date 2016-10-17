@@ -1,0 +1,71 @@
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.csprojResolveAssemblyReference.cache
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Debug\MainWindow.g.cs
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Debug\App.g.cs
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Debug\ChatBox_MarkupCompile.cache
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Debug\ChatBox_MarkupCompile.lref
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\bin\Debug\ChatBox.exe.config
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\bin\Debug\ChatBox.exe
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\bin\Debug\ChatBox.pdb
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Debug\MainWindow.baml
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.g.resources
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.Properties.Resources.resources
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.csproj.GenerateResource.Cache
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.exe
+C:\Users\Ammar\Desktop\Shared\Instructor Omlate- New\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.pdb
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\bin\Debug\ChatBox.exe.config
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\bin\Debug\ChatBox.exe
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\bin\Debug\ChatBox.pdb
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\bin\Debug\Newtonsoft.Json.xml
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\obj\Debug\MainWindow.g.cs
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\obj\Debug\App.g.cs
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\obj\Debug\ChatBox_MarkupCompile.cache
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\obj\Debug\ChatBox_MarkupCompile.lref
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\obj\Debug\MainWindow.baml
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.g.resources
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.Properties.Resources.resources
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.csproj.GenerateResource.Cache
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.exe
+C:\Users\zahid\Desktop\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.pdb
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\bin\Debug\ChatBox.exe.config
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\bin\Debug\ChatBox.exe
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\bin\Debug\ChatBox.pdb
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\bin\Debug\Newtonsoft.Json.dll
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\bin\Debug\Newtonsoft.Json.xml
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.csprojResolveAssemblyReference.cache
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\MainWindow.g.cs
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\App.g.cs
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox_MarkupCompile.cache
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox_MarkupCompile.lref
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\MainWindow.baml
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.g.resources
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.Properties.Resources.resources
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.csproj.GenerateResource.Cache
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.exe
+C:\Users\zahid\Google Drive\Virtual Classroom - FYP\FYP 2\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.pdb
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\bin\Debug\ChatBox.exe.config
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\bin\Debug\ChatBox.exe
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\bin\Debug\ChatBox.pdb
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\bin\Debug\Newtonsoft.Json.dll
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\bin\Debug\Newtonsoft.Json.xml
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.csprojResolveAssemblyReference.cache
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\MainWindow.g.cs
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\App.g.cs
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox_MarkupCompile.cache
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox_MarkupCompile.lref
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\MainWindow.baml
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.g.resources
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.Properties.Resources.resources
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.csproj.GenerateResource.Cache
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.exe
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\ChatBox\obj\Debug\ChatBox.pdb
