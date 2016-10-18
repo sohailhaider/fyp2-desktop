@@ -88,6 +88,10 @@
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharp.105.2.3\lib\net45\RestSharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -114,6 +118,12 @@
     <Compile Include="Handout\FFmpegWrapper.cs" />
     <Compile Include="Handout\HandoutGenerator.cs" />
     <Compile Include="Handout\ScreenCapture.cs" />
+    <Compile Include="QuizMenu.xaml.cs">
+      <DependentUpon>QuizMenu.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="QuizStarted.xaml.cs">
+      <DependentUpon>QuizStarted.xaml</DependentUpon>
+    </Compile>
     <Compile Include="SlideShow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -137,6 +147,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="QuizMenu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="QuizStarted.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Toolbar.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -219,6 +237,10 @@
     <Resource Include="Asserts\circleicon.png" />
     <Resource Include="Asserts\openfileicon.png" />
     <Resource Include="Asserts\backicon.png" />
+    <Resource Include="Asserts\quiz.png" />
+    <None Include="Asserts\Bell.png" />
+    <None Include="Asserts\Device-Bell.png" />
+    <None Include="Asserts\Stationery-02.png" />
     <Content Include="Scripts\jquery-1.6.4-vsdoc.js" />
     <Content Include="Scripts\jquery-1.6.4.js" />
     <Content Include="Scripts\jquery-1.6.4.min.js" />

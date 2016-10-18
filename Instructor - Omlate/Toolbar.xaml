@@ -59,5 +59,10 @@
                 <ImageBrush ImageSource="Asserts/chaticon.png" Stretch="Fill" TileMode="None" />
             </Button.Background>
         </Button>
+        <Button x:Name="quizButton" Height="24" Width="24" Margin="255,0,121,6" Style="{StaticResource {x:Static ToolBar.ButtonStyleKey}}" ToolTip="Open Chat" VerticalAlignment="Bottom" Click="quizButton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="Asserts/quiz.png" Stretch="Fill" TileMode="None" />
+            </Button.Background>
+        </Button>
     </Grid>
 </Window>

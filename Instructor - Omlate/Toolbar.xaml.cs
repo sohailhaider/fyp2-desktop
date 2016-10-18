@@ -19,6 +19,7 @@ namespace Instructor___Omlate
         StreamClass stream;
         private List<int> frameRates;
         private List<string> videoSizes;
+        private ChatBox.MainWindow mn;
 
         bool streamStarted, desktopStream;
         public Toolbar()
@@ -33,6 +34,9 @@ namespace Instructor___Omlate
             this.Top = 768 - 100;
             this.Left = (1369/2) - 220;
             Loaded += Toolbar_Loaded;
+
+            mn = new ChatBox.MainWindow();
+            mn.Hide();
         }
 
         void Toolbar_Loaded(object sender, RoutedEventArgs e)
@@ -142,9 +146,13 @@ namespace Instructor___Omlate
             Application.Current.Shutdown();
         }
 
+        private void quizButton_Click(object sender, RoutedEventArgs e)
+        {
+            mn.Show();
+        }
+
         private void chatButton_Click(object sender, RoutedEventArgs e)
         {
-            ChatBox.MainWindow mn = new ChatBox.MainWindow();
             mn.Show();
         }
     }

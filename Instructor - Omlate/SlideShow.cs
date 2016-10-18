@@ -218,6 +218,17 @@ namespace Instructor___Omlate
             //startcam.IsEnabled = true;
         }
 
+        private void slideShowPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            QuizMenu qm = new QuizMenu();
+            qm.Show();
+        }
+
         private void chatButton_Click(object sender, EventArgs e)
         {
             ChatBox.MainWindow mn = new ChatBox.MainWindow();

@@ -40,7 +40,10 @@ namespace ChatBox
             TextBoxMessage.Text = String.Empty;
             TextBoxMessage.Focus();
         }
-
+        public void sendQuizStartedMsg()
+        {
+            HubProxy.Invoke("Send", "class1", UserName, "Your Quiz has been started, click here to Atempt\n Remember: you can only one open this quiz!");
+        } 
         /// <summary>
         /// Creates and connects the hub connection and hub proxy. This method
         /// is called asynchronously from SignInButton_Click.

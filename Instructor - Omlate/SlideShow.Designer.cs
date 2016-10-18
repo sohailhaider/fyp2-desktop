@@ -31,6 +31,7 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.slideShowPanel = new System.Windows.Forms.Panel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.exitButton = new System.Windows.Forms.PictureBox();
             this.chatButton = new System.Windows.Forms.PictureBox();
             this.endLectureButton = new System.Windows.Forms.PictureBox();
@@ -41,6 +42,7 @@
             this.streamCamButton = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.exitButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chatButton)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.endLectureButton)).BeginInit();
@@ -73,6 +75,7 @@
             this.slideShowPanel.Name = "slideShowPanel";
             this.slideShowPanel.Size = new System.Drawing.Size(600, 444);
             this.slideShowPanel.TabIndex = 0;
+            this.slideShowPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.slideShowPanel_Paint);
             // 
             // tableLayoutPanel2
             // 
@@ -88,6 +91,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 8F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 18F));
+            this.tableLayoutPanel2.Controls.Add(this.pictureBox1, 0, 0);
             this.tableLayoutPanel2.Controls.Add(this.exitButton, 8, 0);
             this.tableLayoutPanel2.Controls.Add(this.chatButton, 7, 0);
             this.tableLayoutPanel2.Controls.Add(this.endLectureButton, 6, 0);
@@ -103,6 +107,18 @@
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel2.Size = new System.Drawing.Size(600, 44);
             this.tableLayoutPanel2.TabIndex = 1;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = global::Instructor___Omlate.Properties.Resources.Stationery_02;
+            this.pictureBox1.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(102, 38);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // exitButton
             // 
@@ -214,6 +230,7 @@
             this.Load += new System.EventHandler(this.SlideShow_Load);
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tableLayoutPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.exitButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chatButton)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.endLectureButton)).EndInit();
@@ -239,5 +256,6 @@
         private System.Windows.Forms.PictureBox endLectureButton;
         private System.Windows.Forms.PictureBox chatButton;
         private System.Windows.Forms.PictureBox exitButton;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
