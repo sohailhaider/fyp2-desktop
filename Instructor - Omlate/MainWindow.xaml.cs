@@ -23,6 +23,7 @@ namespace Instructor___Omlate
     {
 
         private PPTFileLoader pptloader;
+        SlideShow slider;
         public MainWindow()
         {
             InitializeComponent();
@@ -32,11 +33,8 @@ namespace Instructor___Omlate
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-
-            //Toolbar toolbar = new Toolbar();
-            //toolbar.Show();
-
-            SlideShow slider = new SlideShow();
+            if (slider == null)
+                slider = new SlideShow();
             slider.ShowDialog();
 
             this.Close();
@@ -44,6 +42,31 @@ namespace Instructor___Omlate
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            var name = (String)username.Text;
+            var passw = (String)password.Password;
+            var client = new RestSharp.RestClient("http://localhost:3825/omlate");
+            var request = new RestSharp.RestRequest("/Instructor/validateUsernamePassword", RestSharp.Method.POST);
+            request.AddParameter("username", name);
+            request.AddParameter("password", passw);
+            RestSharp.IRestResponse response = client.Execute(request);
+            var content = response.Content;
+            bool cont = Convert.ToBoolean(content);
+            if (cont)
+            {
+                Properties.Settings.Default["username"] = name;
+                if (slider == null)
+                    slider = new SlideShow();
+                slider.ShowDialog();
+
+                this.Close();
+            } else
+            {
+                label.Content = "*Invalid Username or Password!";
+                Properties.Settings.Default["username"]= "-1";
+            }
+
+
+            Properties.Settings.Default.Save();
             //Toolbar toolbar = new Toolbar();
             //toolbar.Show();
             //this.Close();

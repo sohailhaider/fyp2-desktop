@@ -51,7 +51,7 @@ namespace Instructor___Omlate
             InitializeComponent();
             this.Closing += new System.ComponentModel.CancelEventHandler(Window_Closing);
             time = t;
-
+            label.Content = Properties.Settings.Default["username"];
             _time = TimeSpan.FromMinutes(time);
 
             _timer = new DispatcherTimer(new TimeSpan(0, 0, 1), DispatcherPriority.Normal, delegate
