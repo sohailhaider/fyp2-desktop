@@ -57,7 +57,7 @@ namespace Instructor___Omlate
                 if (slider == null)
                     slider = new SlideShow();
                 slider.ShowDialog();
-
+                this.Hide();
                 this.Close();
             } else
             {

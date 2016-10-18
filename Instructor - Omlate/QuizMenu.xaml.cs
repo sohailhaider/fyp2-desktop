@@ -22,13 +22,14 @@ namespace Instructor___Omlate
     public partial class QuizMenu : Window
     {
         List<int> durations;
-        public QuizMenu()
+        ChatBox.MainWindow chat;
+        public QuizMenu(ChatBox.MainWindow mn)
         {
             InitializeComponent();
             durations = new List<int>();
             var client = new RestSharp.RestClient("http://localhost:3825/omlate");
             var request = new RestSharp.RestRequest("/Instructor/MyCourses", RestSharp.Method.GET);
-            request.AddParameter("instructorID", "zahid119");
+            request.AddParameter("instructorID", Properties.Settings.Default.username);
             RestSharp.IRestResponse response = client.Execute(request);
             var content = response.Content;
             var data = JsonConvert.DeserializeObject<List<Dictionary<String, String>>>(content);
@@ -52,6 +53,7 @@ namespace Instructor___Omlate
             } else
             {
                 QuizStarted qs = new QuizStarted(durations.ElementAt(comboBox1.SelectedIndex));
+                chat.sendQuizStartedMsg();
                 qs.Show();
                 this.Close();
             }

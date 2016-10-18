@@ -33,6 +33,7 @@ namespace Instructor___Omlate
         string lectureFileName;
 
         private PPTFileLoader pptLoader;
+        ChatBox.MainWindow mn;
 
         //bool flag = false;
 
@@ -49,6 +50,7 @@ namespace Instructor___Omlate
             openFileDiag.Filter = "Powerpoint file (*.ppt)|*.ppt|All files (*.*)|*.*";
             stream.StreamName = "class1";
             desktopStream = false;
+            mn = new ChatBox.MainWindow();
         }
 
         private void SlideShow_Load(object sender, EventArgs e)
@@ -225,13 +227,15 @@ namespace Instructor___Omlate
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            QuizMenu qm = new QuizMenu();
+            QuizMenu qm = new QuizMenu(mn);
+            
             qm.Show();
         }
 
         private void chatButton_Click(object sender, EventArgs e)
         {
-            ChatBox.MainWindow mn = new ChatBox.MainWindow();
+            mn = new ChatBox.MainWindow();
+
             TopMost = false;
             mn.ShowDialog();
             mn.Topmost = true;
