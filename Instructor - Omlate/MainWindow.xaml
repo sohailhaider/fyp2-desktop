@@ -8,7 +8,7 @@
         Icon="asserts\logo_icon.png">
     <Grid>
         <Image Source="asserts/logo_banner_downscaled.png" Margin="10,10,10,187"/>
-        <Label x:Name="label1" Content="Email" HorizontalAlignment="Left" Margin="81,105,0,0" VerticalAlignment="Top" Width="71"/>
+        <Label x:Name="label1" Content="Username" HorizontalAlignment="Left" Margin="81,105,0,0" VerticalAlignment="Top" Width="71"/>
         <Label Content="Password" HorizontalAlignment="Left" Margin="81,145,0,0" VerticalAlignment="Top" Width="71"/>
         <TextBox x:Name="username" HorizontalAlignment="Left" Height="23" Margin="157,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="191"/>
         <PasswordBox x:Name="password" HorizontalAlignment="Left" Height="23" Margin="157,145,0,0" VerticalAlignment="Top" Width="191"/>

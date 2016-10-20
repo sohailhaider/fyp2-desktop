@@ -149,6 +149,12 @@ namespace Instructor___Omlate
         {
             slides++;
             TimeSpan time = (DateTime.Now - startTime);
+            if(hoGen == null)
+            {
+                startTime = DateTime.Now;
+                hoGen = new HandoutGenerator(startTime);
+
+            }
             hoGen.WriteSlideTime(time.ToString());
             hoGen.SaveScreenShoot(slides);
         }
@@ -235,10 +241,8 @@ namespace Instructor___Omlate
         private void chatButton_Click(object sender, EventArgs e)
         {
             mn = new ChatBox.MainWindow();
-
             TopMost = false;
             mn.ShowDialog();
-            mn.Topmost = true;
         }
     }
 }

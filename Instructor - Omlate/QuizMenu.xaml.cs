@@ -26,6 +26,7 @@ namespace Instructor___Omlate
         public QuizMenu(ChatBox.MainWindow mn)
         {
             InitializeComponent();
+            chat = mn;
             durations = new List<int>();
             var client = new RestSharp.RestClient("http://localhost:3825/omlate");
             var request = new RestSharp.RestRequest("/Instructor/MyCourses", RestSharp.Method.GET);
@@ -53,7 +54,7 @@ namespace Instructor___Omlate
             } else
             {
                 QuizStarted qs = new QuizStarted(durations.ElementAt(comboBox1.SelectedIndex));
-                chat.sendQuizStartedMsg();
+                chat.sendQuizStartedMsg(comboBox1.SelectedValue.ToString());
                 qs.Show();
                 this.Close();
             }

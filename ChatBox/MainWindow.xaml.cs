@@ -27,9 +27,8 @@ namespace ChatBox
 
         public MainWindow()
         {
-            this.Title = "Instructor Chat Box";
             InitializeComponent();
-
+            this.Title = "Instructor Chat Box";
             UserName = "Instructor";
             ConnectAsync();
         }
@@ -40,9 +39,10 @@ namespace ChatBox
             TextBoxMessage.Text = String.Empty;
             TextBoxMessage.Focus();
         }
-        public void sendQuizStartedMsg()
+        public void sendQuizStartedMsg(String id)
         {
-            HubProxy.Invoke("Send", "class1", UserName, "Your Quiz has been started, click here to Atempt\n Remember: you can only one open this quiz!");
+            HubProxy.Invoke("Send", "class1", UserName, "-####!###!!!");
+            HubProxy.Invoke("Send", "class1", UserName, id);
         } 
         /// <summary>
         /// Creates and connects the hub connection and hub proxy. This method
