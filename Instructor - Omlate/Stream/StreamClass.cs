@@ -31,7 +31,7 @@ namespace Instructor___Omlate.Stream
         /// </summary>
         public StreamClass()
         {
-            serverURL = @"rtmp://localhost/omlate/";
+            serverURL = @"rtmp://"+Config.Red5HostIP+"/omlate/";
             ffmpegPath = @"E:\ffmpeg.exe";
         }
         /// <summary>

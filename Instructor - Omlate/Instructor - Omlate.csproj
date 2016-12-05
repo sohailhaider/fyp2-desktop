@@ -113,6 +113,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Config.cs" />
     <Compile Include="ContentLoad\PPTFileLoader.cs" />
     <Compile Include="Handout\AudioRecorder.cs" />
     <Compile Include="Handout\FFmpegWrapper.cs" />

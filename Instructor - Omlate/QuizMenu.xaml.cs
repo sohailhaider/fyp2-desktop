@@ -28,7 +28,7 @@ namespace Instructor___Omlate
             InitializeComponent();
             chat = mn;
             durations = new List<int>();
-            var client = new RestSharp.RestClient("http://localhost:3825/omlate");
+            var client = new RestSharp.RestClient("http://"+Config.WebHostIP+":" + Config.WebHostPort + "/omlate");
             var request = new RestSharp.RestRequest("/Instructor/MyCourses", RestSharp.Method.GET);
             request.AddParameter("instructorID", Properties.Settings.Default.username);
             RestSharp.IRestResponse response = client.Execute(request);
@@ -63,7 +63,7 @@ namespace Instructor___Omlate
         private void comboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             String s = this.comboBox.SelectedValue.ToString();
-            var client = new RestSharp.RestClient("http://localhost:3825/omlate");
+            var client = new RestSharp.RestClient("http://"+Config.WebHostIP+ ":" + Config.WebHostPort + "/omlate");
             var request = new RestSharp.RestRequest("/Instructor/getQuizsbyOfferedCourseID", RestSharp.Method.GET);
             request.AddParameter("OfferedCourseID", s);
             RestSharp.IRestResponse response = client.Execute(request);

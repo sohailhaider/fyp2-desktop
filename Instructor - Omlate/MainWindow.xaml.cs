@@ -44,7 +44,7 @@ namespace Instructor___Omlate
         {
             var name = (String)username.Text;
             var passw = (String)password.Password;
-            var client = new RestSharp.RestClient("http://localhost:3825/omlate");
+            var client = new RestSharp.RestClient("http://"+Config.WebHostIP+":" + Config.WebHostPort + "/omlate");
             var request = new RestSharp.RestRequest("/Instructor/validateUsernamePassword", RestSharp.Method.POST);
             request.AddParameter("username", name);
             request.AddParameter("password", passw);
