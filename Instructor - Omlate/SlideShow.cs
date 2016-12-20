@@ -17,20 +17,20 @@ namespace Instructor___Omlate
 {
     public partial class SlideShow : Form
     {
-        private DateTime startTime;
-        private DispatcherTimer timer;
-        int slides;
+        public DateTime startTime;
+        public DispatcherTimer timer;
+        public int slides;
 
-        Device device;
-        StreamClass stream;
-        private List<int> frameRates;
-        private List<string> videoSizes;
+        public Device device;
+        public StreamClass stream;
+        public List<int> frameRates;
+        public List<string> videoSizes;
 
-        private HandoutGenerator hoGen;
-        bool streamStarted, desktopStream;
+        public HandoutGenerator hoGen;
+        public bool streamStarted, desktopStream;
 
         OpenFileDialog openFileDiag;
-        string lectureFileName;
+        public string lectureFileName;
 
         private PPTFileLoader pptLoader;
         ChatBox.MainWindow mn;
@@ -48,9 +48,9 @@ namespace Instructor___Omlate
             timer.Interval = new TimeSpan(0, 0, 1);
             
             openFileDiag.Filter = "Powerpoint file (*.ppt)|*.ppt|All files (*.*)|*.*";
-            stream.StreamName = "class1";
+            stream.StreamName = Properties.Settings.Default.courseid;
             desktopStream = false;
-            mn = new ChatBox.MainWindow();
+            mn = new ChatBox.MainWindow(Properties.Settings.Default.courseid);
         }
 
         private void SlideShow_Load(object sender, EventArgs e)
@@ -89,7 +89,7 @@ namespace Instructor___Omlate
                 //next.IsEnabled = false;
                 if (device.WebCams.Count > 0)
                 {
-                    stream.StreamName = "class1";
+                    stream.StreamName = Properties.Settings.Default.courseid;
                     stream.AudioDevice = device.Mics[0];
                     stream.VideoDevice = device.WebCams[0];
                     stream.FrameRate = frameRates[frameRates.Count - 1];
@@ -161,26 +161,32 @@ namespace Instructor___Omlate
 
         private void streamDesktopButton_Click(object sender, EventArgs e)
         {
-            if (!streamStarted)
-            {
+            if (!streamStarted) {
+                //if(coursesWindow == null)
+                //{
+                //    coursesWindow = new StartLectureWindow(this);
+                //}
+                //TopMost = false;
+                //coursesWindow.ShowDialog();
+
                 //startcam.IsEnabled = false;
-                if (device.Mics.Count > 0)
+                if (this.device.Mics.Count > 0)
                 {
-                    if (device.WebCams.Contains("screen-capture-recorder"))
+                    if (this.device.WebCams.Contains("screen-capture-recorder"))
                     {
-                        desktopStream = true;
-                        stream.VideoDevice = "screen-capture-recorder";
-                        stream.AudioDevice = device.Mics[0];
-                        stream.StreamName = "class1";
-                        stream.CreateCommand(Instructor___Omlate.Stream.StreamClass.StreamType.DesktopStream);
-                        stream.StartStream();
-                        streamStarted = true;
-                        slides = 0;
-                        startTime = DateTime.Now;
-                        hoGen = new HandoutGenerator(startTime);
-                        hoGen.StartRecordingAudio();
-                        timer.IsEnabled = true;
-                        timer.Start();
+                        this.desktopStream = true;
+                        this.stream.VideoDevice = "screen-capture-recorder";
+                        this.stream.AudioDevice = this.device.Mics[0];
+                        this.stream.StreamName = Properties.Settings.Default.courseid;
+                        this.stream.CreateCommand(Instructor___Omlate.Stream.StreamClass.StreamType.DesktopStream);
+                        this.stream.StartStream();
+                        this.streamStarted = true;
+                        this.slides = 0;
+                        this.startTime = DateTime.Now;
+                        this.hoGen = new HandoutGenerator(this.startTime);
+                        this.hoGen.StartRecordingAudio();
+                        this.timer.IsEnabled = true;
+                        this.timer.Start();
                     }
                     else
                     {
@@ -189,14 +195,16 @@ namespace Instructor___Omlate
                 }
                 else
                 {
-                    MessageBox.Show("No Audio Device not Found");
+                    MessageBox.Show("Audio Device not Found");
                 }
+
+
             }
             else
             {
                 MessageBox.Show("Stream Already Started");
             }
-        }
+}
 
         private void endLectureButton_Click(object sender, EventArgs e)
         {
@@ -234,13 +242,20 @@ namespace Instructor___Omlate
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             QuizMenu qm = new QuizMenu(mn);
-            
+            mn.LectureId = Properties.Settings.Default.courseid;
             qm.Show();
+        }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
         private void chatButton_Click(object sender, EventArgs e)
         {
-            mn = new ChatBox.MainWindow();
+            if(mn == null)
+            mn = new ChatBox.MainWindow(Properties.Settings.Default.courseid);
+            mn.LectureId = Properties.Settings.Default.courseid;
             TopMost = false;
             mn.ShowDialog();
         }

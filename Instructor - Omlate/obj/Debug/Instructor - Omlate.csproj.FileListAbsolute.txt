@@ -179,3 +179,5 @@ F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zah
 F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\Instructor - Omlate\obj\Debug\QuizStarted.baml
 F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\Instructor - Omlate\obj\Debug\GeneratedInternalTypeHelper.g.cs
 F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\Instructor - Omlate\obj\Debug\App.baml
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\Instructor - Omlate\obj\Debug\StartLectureWindow.g.cs
+F:\FYP 2\OmLATE_12F8098_12F-8097_Code-Submission\Zahid Code-20161015T073758Z\Zahid Code\desktop-app\Instructor - Omlate\Instructor - Omlate\obj\Debug\StartLectureWindow.baml

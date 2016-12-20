@@ -40,5 +40,14 @@ namespace Instructor___Omlate.Properties {
                 return ((string)(this["username"]));
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("")]
+        public string courseid {
+            get {
+                return ((string)(this["courseid"]));
+            }
+        }
     }
 }

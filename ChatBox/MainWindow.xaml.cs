@@ -20,29 +20,31 @@ namespace ChatBox
     public partial class MainWindow : Window
     {
         public String UserName { get; set; }
+        public String LectureId { get; set; }
         public IHubProxy HubProxy { get; set; }
         //change it with ip
         string ServerURI = "http://"+Config.WebHostIP+ ":" + Config.WebHostPort + "/omlate/signalr";
         public HubConnection Connection { get; set; }
 
-        public MainWindow()
+        public MainWindow(string lcId)
         {
             InitializeComponent();
             this.Title = "Instructor Chat Box";
             UserName = "Instructor";
+            LectureId = lcId;
             ConnectAsync();
         }
 
         private void ButtonSend_Click(object sender, RoutedEventArgs e)
         {
-            HubProxy.Invoke("Send", "class1",UserName, TextBoxMessage.Text);
+            HubProxy.Invoke("Send", LectureId, UserName, TextBoxMessage.Text);
             TextBoxMessage.Text = String.Empty;
             TextBoxMessage.Focus();
         }
         public void sendQuizStartedMsg(String id)
         {
-            HubProxy.Invoke("Send", "class1", UserName, "-####!###!!!");
-            HubProxy.Invoke("Send", "class1", UserName, id);
+            HubProxy.Invoke("Send", LectureId, UserName, "-####!###!!!");
+            HubProxy.Invoke("Send", LectureId, UserName, id);
         } 
         /// <summary>
         /// Creates and connects the hub connection and hub proxy. This method
@@ -74,9 +76,9 @@ namespace ChatBox
             //ChatPanel.Visibility = Visibility.Visible;
             ButtonSend.IsEnabled = true;
             TextBoxMessage.Focus();
-            RichTextBoxConsole.AppendText("Connected to server at " + ServerURI + "\r");
+            //RichTextBoxConsole.AppendText("Connected to server at " + ServerURI + "\r");
 
-            await HubProxy.Invoke("Join", "class1");
+            await HubProxy.Invoke("Join", LectureId);
         }
 
         /// <summary>

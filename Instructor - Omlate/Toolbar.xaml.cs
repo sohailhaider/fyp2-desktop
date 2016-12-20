@@ -28,14 +28,14 @@ namespace Instructor___Omlate
             
             device = new Device();
             stream = new StreamClass();
-            stream.StreamName = "class1";
+            stream.StreamName = Properties.Settings.Default.courseid;
 
             desktopStream = false;
             this.Top = 768 - 100;
             this.Left = (1369/2) - 220;
             Loaded += Toolbar_Loaded;
 
-            mn = new ChatBox.MainWindow();
+            mn = new ChatBox.MainWindow(Properties.Settings.Default.courseid);
             mn.Hide();
         }
 
@@ -79,7 +79,7 @@ namespace Instructor___Omlate
                 //slider = new LectureSlidesShow();
                 //slider.Device = this.device;
                 //slider.Stream = stream;
-                //slider.Stream.StreamName = "class1";
+                //slider.Stream.StreamName = Properties.Settings.Default.courseid;
                 streamStarted = true;
                 desktopStream = true;
                 startcam.IsEnabled = false;
@@ -121,7 +121,7 @@ namespace Instructor___Omlate
                 next.IsEnabled = false;
                 if (device.WebCams.Count > 0)
                 {
-                    stream.StreamName = "class1";
+                    stream.StreamName = Properties.Settings.Default.courseid;
                     stream.AudioDevice = device.Mics[0];
                     stream.VideoDevice = device.WebCams[0];
                     stream.FrameRate = frameRates.Last();

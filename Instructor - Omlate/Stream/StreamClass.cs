@@ -32,7 +32,7 @@ namespace Instructor___Omlate.Stream
         public StreamClass()
         {
             serverURL = @"rtmp://"+Config.Red5HostIP+"/omlate/";
-            ffmpegPath = @"E:\ffmpeg.exe";
+            ffmpegPath = Config.FFmpegPath;
         }
         /// <summary>
         /// Create the final streaming command for ffmpeg
@@ -40,7 +40,7 @@ namespace Instructor___Omlate.Stream
         /// <param name="type"></param>
         public void CreateCommand(StreamType type)
         {
-            streamCommand = "-f dshow ";
+            streamCommand = "-rtbufsize 1500M -f dshow ";
             if (type.Equals(StreamType.WebCamStream))
             {
                 streamCommand += " -video_size " + VideoSize + " -framerate " + FrameRate
@@ -48,7 +48,7 @@ namespace Instructor___Omlate.Stream
                 streamCommand += "\"" + VideoDevice + "\"";
                 streamCommand += ":audio=";
                 streamCommand += "\"" + AudioDevice + "\"";
-                streamCommand += " -rtbufsize 304128000 -f flv -f flv " + serverURL + StreamName;
+                streamCommand += " -ar 44100 -f flv -f flv " + serverURL + StreamName;
 
                //var video="\"" + VideoDevice + "\"";
                 //var audio="\"" + AudioDevice + "\"";
@@ -61,7 +61,7 @@ namespace Instructor___Omlate.Stream
                 streamCommand += "\"" + VideoDevice + "\"";
                 streamCommand += ":audio=";
                 streamCommand += "\"" + AudioDevice + "\"";
-                streamCommand += " -r 20 -q 5 -f flv " + serverURL + StreamName;
+                streamCommand += " -ar 44100 -r 20 -q 5 -f flv " + serverURL + StreamName;
 
                 //streamCommand += " -i video=";
                 //streamCommand += "\"" + VideoDevice + "\"";
@@ -82,7 +82,7 @@ namespace Instructor___Omlate.Stream
                 streamProcess = new Process();
                 streamProcess.StartInfo.FileName = ffmpegPath;
                 streamProcess.StartInfo.Arguments = streamCommand;
-                //streamProcess.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
+                streamProcess.StartInfo.WindowStyle = ProcessWindowStyle.Hidden;
                 streamProcess.Start();
             }
             catch (Exception e)

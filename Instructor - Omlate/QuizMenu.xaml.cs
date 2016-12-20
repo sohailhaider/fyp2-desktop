@@ -54,6 +54,7 @@ namespace Instructor___Omlate
             } else
             {
                 QuizStarted qs = new QuizStarted(durations.ElementAt(comboBox1.SelectedIndex));
+                chat.LectureId = Properties.Settings.Default.courseid;
                 chat.sendQuizStartedMsg(comboBox1.SelectedValue.ToString());
                 qs.Show();
                 this.Close();

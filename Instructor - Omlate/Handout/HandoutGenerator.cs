@@ -9,7 +9,7 @@ using Frapper;
 
 namespace HandoutsGeneration
 {
-    class HandoutGenerator
+    public class HandoutGenerator
     {
         StreamWriter timingFile;
         String imgFolderPath;

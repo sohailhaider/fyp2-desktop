@@ -77,8 +77,11 @@ namespace HandoutsGeneration
         /// </summary>
         public void StopRecording()
         {
-            waveIn.StopRecording();
-            writer.Close();
+            if(waveIn!=null)
+            {
+                waveIn.StopRecording();
+                writer.Close();
+            }
             writer = null;
             waveIn = null;
         }

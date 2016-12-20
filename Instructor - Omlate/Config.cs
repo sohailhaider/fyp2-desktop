@@ -8,9 +8,10 @@ namespace Instructor___Omlate
 {
     class Config
     {
-        public static String WebHostIP = "192.168.10.2";
-        public static String Red5HostIP = "192.168.10.2";
+        public static String WebHostIP = "192.168.10.4";
+        public static String Red5HostIP = "192.168.10.4";
         public static String WebHostPort = "3825";
         public static String Red5HostPort = "1935";
+        public static String FFmpegPath = @"E:\ffmpeg.exe";
     }
 }

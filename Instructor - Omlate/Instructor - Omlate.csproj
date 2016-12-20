@@ -131,6 +131,9 @@
     <Compile Include="SlideShow.Designer.cs">
       <DependentUpon>SlideShow.cs</DependentUpon>
     </Compile>
+    <Compile Include="StartLectureWindow.xaml.cs">
+      <DependentUpon>StartLectureWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Stream\Device.cs" />
     <Compile Include="Stream\StreamClass.cs" />
     <Compile Include="Toolbar.xaml.cs">
@@ -153,6 +156,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="QuizStarted.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="StartLectureWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

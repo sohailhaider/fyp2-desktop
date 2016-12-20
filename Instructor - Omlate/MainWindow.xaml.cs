@@ -24,6 +24,7 @@ namespace Instructor___Omlate
 
         private PPTFileLoader pptloader;
         SlideShow slider;
+        StartLectureWindow swindow;
         public MainWindow()
         {
             InitializeComponent();
@@ -54,11 +55,11 @@ namespace Instructor___Omlate
             if (cont)
             {
                 Properties.Settings.Default["username"] = name;
-                if (slider == null)
-                    slider = new SlideShow();
-                slider.ShowDialog();
                 this.Hide();
-                this.Close();
+                if (swindow == null)
+                    swindow = new StartLectureWindow();
+                swindow.ShowDialog();
+                
             } else
             {
                 label.Content = "*Invalid Username or Password!";

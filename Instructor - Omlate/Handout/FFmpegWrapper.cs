@@ -16,7 +16,7 @@ namespace HandoutsGeneration
         /// </summary>
         public FFmpegWrapper()
         {
-            ffmpeg = new FFMPEG(@"E:\ffmpeg.exe");
+            ffmpeg = new FFMPEG(Instructor___Omlate.Config.FFmpegPath);
         }
         /// <summary>
         /// Split a part from Audio file
